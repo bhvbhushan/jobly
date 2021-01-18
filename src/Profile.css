@@ -1,0 +1,14 @@
+.Profile-container h1{
+    text-align: center;
+    margin: 25px;
+}
+
+.Profile-card{
+    /* width:50rem */
+ 
+    margin-bottom: 4rem;
+}
+
+.Profile-card label{
+   font-weight: bold;
+}

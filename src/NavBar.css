@@ -1,0 +1,12 @@
+.navbar{
+    background-color: tomato;
+}
+
+.nav-item a{
+    color:white;
+    font-weight: bold;
+}
+.nav-item a:hover{
+    text-shadow: -1px 0 teal, 0 1px teal, 1px 0 teal, 0 -1px teal;
+    color:white
+}
