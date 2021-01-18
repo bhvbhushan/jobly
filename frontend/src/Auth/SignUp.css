@@ -1,0 +1,13 @@
+.Signup-card{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.Signup-card h1{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.Signup-card label{
+    font-weight: bold;
+}

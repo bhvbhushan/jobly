@@ -1,0 +1,10 @@
+.JobCard-button {
+    margin-top: 10px;
+    position: absolute;
+    margin: 0;
+    right:20px;
+}
+
+.JobCard{
+    margin: 40px
+}

@@ -1,0 +1,22 @@
+.card-title{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+
+.card-title img{
+    width:150px;
+    height:100px;
+}
+.card-title h4{
+    margin-top:20px;
+}
+
+.CompanyCard{
+    margin: 40px
+}
+.CompanyCard:hover{
+    border-color: tomato;
+    color:tomato;
+    text-decoration: none;
+}
