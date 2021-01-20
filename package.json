@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "start": "cd backend && yarn start",
+        "start-client": "cd frontend && yarn start",
+        "build": "(cd frontend && npm run build) && (cd backend && yarn install)"
+      }
+}

@@ -14,8 +14,13 @@ const usersRoutes = require("./routes/users");
 const jobsRoutes = require("./routes/jobs");
 
 const morgan = require("morgan");
+const path = require('path')
 
 const app = express();
+
+const buildPath = path.join(__dirname, '..', 'frontend','build');
+console.log({buildPath})
+app.use(express.static(buildPath));
 
 app.use(cors());
 app.use(express.json());
